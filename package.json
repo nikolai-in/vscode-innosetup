@@ -2,7 +2,7 @@
     "name": "vscode-innosetup",
     "displayName": "Inno Setup",
     "description": "Language syntax, snippets and build system for Inno Setup",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "icon": "images/icon.png",
     "publisher": "chouzz",
     "license": "MIT",
@@ -212,7 +212,10 @@
         "taskDefinitions": [
             {
                 "type": "innosetup-build",
-                "required": [ "label", "command" ],
+                "required": [
+                    "label",
+                    "command"
+                ],
                 "properties": {
                     "label": {
                         "type": "string",
@@ -230,16 +233,16 @@
                         "type": "object",
                         "description": "Additional command options",
                         "properties": {
-                          "cwd": {
-                            "type": "string",
-                            "description": "The current working directory of the executed program or script. If omitted Code's current workspace root is used"
-                          }
+                            "cwd": {
+                                "type": "string",
+                                "description": "The current working directory of the executed program or script. If omitted Code's current workspace root is used"
+                            }
                         }
-                      },
-                      "detail": {
+                    },
+                    "detail": {
                         "type": "string",
                         "description": "Additional details of the task"
-                      }
+                    }
                 }
             }
         ]
