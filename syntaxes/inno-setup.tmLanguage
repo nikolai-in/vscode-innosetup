@@ -121,7 +121,7 @@
 
         <dict>
             <key>match</key>
-            <string>(?i){#\S*}</string>
+            <string>(?i){(#|cm:|code:)\S*}</string>
             <key>name</key>
             <string>constant.other.inno</string>
         </dict>
@@ -167,7 +167,7 @@
                 </dict>
                 <dict>
                     <key>match</key>
-                    <string>(?i){#\S*}</string>
+                    <string>(?i){(#|cm:|code:)\S*}</string>
                     <key>name</key>
                     <string>constant.other.inno</string>
                 </dict>
@@ -212,7 +212,7 @@
                 </dict>
                 <dict>
                     <key>match</key>
-                    <string>(?i){#\S*}</string>
+                    <string>(?i){(#|cm:|code:)\S*}</string>
                     <key>name</key>
                     <string>constant.other.inno</string>
                 </dict>
